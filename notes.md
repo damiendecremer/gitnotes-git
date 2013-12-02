@@ -56,6 +56,10 @@ The *develop* branch is now ready to be pushed to the repository
 
 ## History modification
 
+**Note**
+
+do not modify history after pushing to a public repository
+
 **Committed too early**
 
 Say you have created a file and committed the change:
