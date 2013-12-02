@@ -1,5 +1,15 @@
 # GIT notes
 
+## Standard workflow
+
+    git init
+    git add .
+    vim file
+    git add file
+    git commit -am "added file"
+    vim file
+    git commit --amend
+    git push origin develop
 
 ## Creating a new github repository
 
@@ -119,9 +129,6 @@ Now the new log looks as follows:
        > added file2 with content 
        > initial commit
         
-    
-
-
 
 
 ## .gitignore
@@ -131,5 +138,8 @@ Some files need not be added to the repository. These include temporary files an
     .*.swp
 
     
+## Reversing changes
+
+
 
 
