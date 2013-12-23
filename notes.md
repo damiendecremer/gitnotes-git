@@ -62,6 +62,10 @@ The *develop* branch is now ready to be pushed to the repository
 
     git push origin develop
 
+To delete a branch on the remote origin (e.g. github) after deleting it locally do
+
+    git push origin :new_feature 
+
 
 
 ## History modification
