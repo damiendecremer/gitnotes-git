@@ -140,6 +140,9 @@ Some files need not be added to the repository. These include temporary files an
     
 ## Reversing changes
 
+* undo all changes to `file` since last commit
+
+    git checkout -- file
 
 
 
