@@ -66,6 +66,9 @@ To delete a branch on the remote origin (e.g. github) after deleting it locally 
 
     git push origin :new_feature 
 
+To clone only a specific branch use
+
+    git clone -b my_branch <remote-repo>
 
 
 ## History modification
